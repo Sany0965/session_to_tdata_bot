@@ -7,7 +7,7 @@ import os
 import shutil
 import asyncio
 
-bot = telebot.TeleBot("8030695294:AAE91Z1cR0CF6o4V6XnAjoS_rL2kGtI5o-s", parse_mode='HTML')
+bot = telebot.TeleBot("TOKEN", parse_mode='HTML')
 
 def get_username(session_path):
     async def async_get_user():
